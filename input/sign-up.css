@@ -1,0 +1,95 @@
+* {
+  margin: 5px;
+  font-family: Arial;
+}
+
+.email-text{
+  color: rgb(96,96,96);
+  font-size: 13px;
+}
+
+.entry{
+  margin-top: 4px;
+  margin-bottom: 10px;
+  width: 290px;
+  height: 30px;
+  font-family: roboto;
+  color: rgba(96,96,96, 0.8);
+  font-style: normal;
+  border-color: rgb(129, 127, 127);
+  border-style: solid;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.agreement{
+  margin-bottom: 12px;
+  color: rgb(96,96,96);
+  font-size: 12px;
+}
+
+.agree-join-button{
+  color: white;
+  border-style: none;
+  background-color: rgb(0, 81, 255);
+  width: 290px;
+  border: 2px;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition:opacity 0.25s;
+}
+
+.agree-join-button:hover{
+  opacity: 0.7;
+}
+
+.agree-join-button:active{
+  opacity: 0.4;
+
+}
+
+.spaceman{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 25px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.spaceman:hover{
+  opacity: 0.7;
+}
+
+.status-entry{
+  margin-top: 0px;
+  vertical-align: middle;
+  color: rgb(96,96,96);
+  width: 250px;
+  height: 45px;
+  margin-right: 0px;
+  border: none;
+  border-style: hidden;
+}
+
+.tweet{
+  vertical-align: middle;
+  color: white;
+  background: rgb(3, 165, 214);
+  border-style: none;
+  margin-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius:20px;
+  cursor: pointer;
+  width: 84px;
+  transition: opacity 0.5s;
+}
+
+.tweet:hover{
+  opacity: 0.7;
+}

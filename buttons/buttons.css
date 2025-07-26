@@ -1,0 +1,122 @@
+.cart-button{
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  border-radius: 13.5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  margin-right: 7px;
+  margin-bottom: 5px;
+  transition: box-shadow 0.15s;
+}
+.cart-button:hover{
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.15);
+
+}
+.buy-button{
+  background-color: rgb(255, 164, 28);
+  color: black;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 13.5px;
+  border: none;
+  border-color: rgb(0, 187, 255);
+  cursor: pointer;
+  margin-bottom: 5px;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+
+}
+.buy-button:hover{
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.15);
+}
+
+.contact-button{
+  background-color: whitesmoke;
+  border-color: seagreen;
+  border-style: solid;
+  border-radius: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-width: 1px;
+  color: seagreen;
+  cursor: pointer;
+  margin-left: 2px;
+  transition: background-color 0.25s, color 0.25s;
+}
+.contact-button:hover{
+  color: white;
+  background-color: seagreen;
+}
+.contact-button:active{
+  opacity: 0.7;
+}
+
+.get-button{
+  background-color: rgb(121,82,179);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  margin-bottom: 4px;
+  transition: opacity 0.15s;
+  
+}
+
+.get-button:hover{
+  opacity: 0.8;
+}
+.get-button:active{
+  opacity: 0.4;
+}
+
+.product-button{
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border-color:rgb(108, 117, 125);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  margin-bottom: 4px;
+  float: right;
+  vertical-align: top;
+ 
+}
+.product-button:hover{
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+.product-button:active{
+  opacity: 0.6;
+}
+.stock-paragraph{
+  color: rgb(0,118,0);
+  font-weight: bold;
+}
+.link-color{
+  color: rgb(0,113,133);
+}
+.link-color:hover{
+  color: springgreen;
+}
+
+.product-name-paragraph{
+  font-size: 27px;
+
+}
